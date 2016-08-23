@@ -13,4 +13,9 @@ class TestMinedMindsFunction < Minitest::Test
 	def test_2_returns_2
 		assert_equal(2, mined_minds(2))
 	end
+
+	def test_7_returns_7
+		assert_equal(7, mined_minds(7))
+	end
+
 end
