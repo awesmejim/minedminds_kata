@@ -22,6 +22,16 @@ def test_1_equals_1
 	assert_equal(2, add(5, -3))
 
 	end
+
+	def test_1_plus_1_plus_1
+	assert_equal(3, add(1, 1, 1))
+
+	end
+
+	def test_12
+	assert_equal(15, add(1, 2, 3, 4, 5))
+	end
+
 end
 
 class TestsubtractionFunction < Minitest::Test
@@ -35,10 +45,15 @@ class TestsubtractionFunction < Minitest::Test
 
 end
 
-class TestDivisionFunction < Minitest::Test
+class TestDivisionFunction < Minitest::Test 
 
 	def test_10_divided_5_2
 		assert_equal(2,divide(10, 5))
+
+	end
+
+	def test_0_divided_100
+		assert_equal("infinity",divide(100, 0))
 
 	end
 
