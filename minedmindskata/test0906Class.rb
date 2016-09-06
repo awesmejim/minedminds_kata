@@ -3,7 +3,9 @@
 # my_num = 2467
 # assert equal(true, grandbash(winners, my_num))
 
-
+def grand_bsh(bash_numbers, my_number)
+	matches = []
+	
 
 
 
